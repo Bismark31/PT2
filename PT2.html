@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso to Dollar Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            text-align: center;
+            margin: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, button {
+            margin: 5px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <label for="peso">Peso to Dollar Converter</label>
+    <input 
+        type="text" 
+        id="peso" 
+        name="peso" 
+        required 
+        placeholder="Enter amount Peso" 
+        minlength="1" 
+        maxlength="10" 
+        size="20">
+    <button onclick="convert()">Convert</button>
+    <p id="result"></p>
+</div>
+      
+    <script src="script.js"></script>
+
+    <footer>
+        Program By: Bismark L. De Asis
+    </footer>
+</body>
+</html>
+
+
+
